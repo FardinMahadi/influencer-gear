@@ -72,4 +72,22 @@
     margin: 3rem 1rem;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  /* featured section */
+  main .featured {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  main .featured img {
+    width: 80%;
+  }
+
+  main .featured .text h1 {
+    font-size: 1.2rem;
+  }
+
+  main .featured .text p {
+    font-size: 0.6rem;
+  }
 }

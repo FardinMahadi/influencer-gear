@@ -196,3 +196,28 @@ main .collection .cards .card .about-product {
   color: var(--about-text);
   font-weight: 600;
 }
+
+/* featured section */
+main .featured {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 5rem 0;
+  gap: 5rem;
+}
+
+main .featured .text h1,
+main .featured .text p {
+  margin-bottom: 1rem;
+}
+
+main .featured .text h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+main .featured .text p {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #6c6c6c;
+}
