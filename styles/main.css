@@ -132,6 +132,7 @@ main .hero .right img {
 /* companies section */
 main .companie-list {
   margin: 5rem 0;
+  padding: 0 4rem;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
@@ -146,4 +147,29 @@ main .companie-list ul {
 
 main .companie-list ul img {
   height: 1.5rem;
+}
+
+/* collection section */
+main .collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+}
+main .collection .cards {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+main .collection .cards .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+main .collection .cards .card img {
+  width: 100%;
 }
