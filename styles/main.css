@@ -36,6 +36,10 @@ body {
   font-weight: 600;
 }
 
+.primary-text-color {
+  color: var(--primary-text);
+}
+
 button {
   background: var(--primary-color);
   padding: 0.5rem 1rem;
@@ -102,6 +106,10 @@ main .hero {
 main .hero .left h1,
 main .hero .left p {
   margin-bottom: 1rem;
+}
+
+main .hero .left p {
+  font-size: 0.8rem;
 }
 
 main .hero .left button {
