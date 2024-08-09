@@ -178,3 +178,14 @@ main .collection .cards .card .product-name {
   font-size: 1.3rem;
   margin: 0.5rem 0;
 }
+
+main .collection .cards .card .product-price {
+  font-size: 1.1rem;
+  margin: 0.2rem 0;
+}
+
+main .collection .cards .card .rating {
+  font-size: 0.8rem;
+  color: #5e6366;
+  font-weight: 500;
+}
