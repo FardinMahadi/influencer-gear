@@ -197,6 +197,12 @@ main .collection .cards .card .about-product {
   font-weight: 600;
 }
 
+main .collection .float {
+  color: var(--primary-color);
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
 /* featured section */
 main .featured {
   display: flex;
