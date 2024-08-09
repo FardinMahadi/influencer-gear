@@ -165,11 +165,16 @@ main .collection .cards {
 }
 
 main .collection .cards .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
   padding: 1rem;
   border-radius: 0.5rem;
 }
 
 main .collection .cards .card img {
   width: 100%;
+}
+
+main .collection .cards .card .product-name {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
 }
