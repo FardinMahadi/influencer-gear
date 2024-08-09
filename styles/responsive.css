@@ -1,0 +1,42 @@
+/*Small smartphones [325px -> 576px]*/
+@media only screen and (max-width: 576px) {
+  header {
+    padding: 3rem 0;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  /* hero section styles */
+  main .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5rem;
+    padding: 1rem;
+  }
+
+  main .hero .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  main .hero .right {
+    height: 20rem;
+  }
+}

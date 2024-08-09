@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* root properties */
+:root {
+  --primary-color: #e02c6d;
+  --primary-text: #3a3a3a;
+  --secondary-text: #18191f;
+  --tertiary-text: #000000;
+  --about-text: #787885;
+}
+
+/* Universel styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* shared styles */
+.rating-text-color {
+  color: #5e6366;
+}
+
+.bold-text {
+  font-weight: bolder;
+}
+
+.semibold-text {
+  font-weight: 600;
+}
+
+button {
+  background: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+}
+
+button img {
+  height: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header styles */
+header {
+  padding: 3rem 0;
+  width: 80%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo {
+  font-size: 1.2rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+
+header nav ul li img {
+  height: 1rem;
+}
+
+/* hero section styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .hero {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  width: 80%;
+}
+
+main .hero .left h1,
+main .hero .left p {
+  margin-bottom: 1rem;
+}
+
+main .hero .left button {
+  border-radius: 4rem;
+  padding: 0.5rem 1.5rem;
+}
+
+main .hero .right {
+  background: url("../Resources/images/Circle\ design.svg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 30rem;
+}
+
+main .hero .right img {
+  height: 100%;
+}
+
+/* companies section */
+main .companie-list {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+main .companie-list ul {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
