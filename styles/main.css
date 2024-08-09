@@ -185,7 +185,14 @@ main .collection .cards .card .product-price {
 }
 
 main .collection .cards .card .rating {
+  margin: 0.2rem 0;
   font-size: 0.8rem;
   color: #5e6366;
   font-weight: 500;
+}
+
+main .collection .cards .card .about-product {
+  font-size: 0.9rem;
+  color: var(--about-text);
+  font-weight: 600;
 }
