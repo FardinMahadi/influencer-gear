@@ -80,7 +80,13 @@
   }
 
   main .featured img {
-    width: 80%;
+    width: 90%;
+  }
+
+  main .featured .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   main .featured .text h1 {
@@ -89,5 +95,10 @@
 
   main .featured .text p {
     font-size: 0.6rem;
+  }
+
+  main .featured .text button img {
+    height: 1rem;
+    width: 1rem;
   }
 }
