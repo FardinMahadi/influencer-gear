@@ -131,6 +131,7 @@ main .companie-list {
 main .companie-list ul {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
   padding: 2rem;
 }

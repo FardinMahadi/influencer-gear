@@ -40,4 +40,18 @@
     height: 20rem;
     width: 20rem;
   }
+
+  /* companies section */
+  main .companie-list {
+    border: none;
+    margin: 1rem 0;
+  }
+
+  main .companie-list ul {
+    justify-content: center;
+  }
+
+  main .companie-list ul img {
+    height: 1rem;
+  }
 }
